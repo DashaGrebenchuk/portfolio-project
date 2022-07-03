@@ -20,14 +20,14 @@ h1 {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/379/original/bg_%281%29.png?1656889671);
   background-position: center;
   background-size: cover;
-
-  margin-top: 118px;
 }
 .hero h2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 48px;
+  margin-left: 490px;
+  margin-right: 490px;
 }
 .hero p {
   font-weight: 700;
