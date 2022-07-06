@@ -41,3 +41,41 @@ h1 {
   padding: 18px 40px;
   margin-bottom: 301px;
 }
+.btn-branding-launch {
+  border-radius: 50px;
+  font-family: var(--secondary-font-family);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 700px;
+  font-size: 14px;
+  padding: 18px 40px;
+}
+.btn-branding-launch:hover {
+  color: var(--background-color);
+  background: var(--primary-color);
+}
+.portfolio-cover {
+  border-radius: 40px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+  .hero h2 {
+    font-size: 18px;
+    margin: 0 25px 48px;
+  }
+  .hero p {
+    padding-top: 100px;
+  }
+
+  .btn-branding {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 535px) {
+  .hero {
+    background-image: none;
+  }
+}
