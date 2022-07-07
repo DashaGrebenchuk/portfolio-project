@@ -16,6 +16,17 @@ h1 {
   margin-bottom: 25px;
   margin-top: 25px;
 }
+.navbar-branding {
+  font-family: var(--default-font-family);
+  background-color: var(--background-color);
+}
+.navbar-name {
+  font-weight: 700;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
 .hero {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/379/original/bg_%281%29.png?1656889671);
   background-position: center;
