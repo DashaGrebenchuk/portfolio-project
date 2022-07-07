@@ -1,6 +1,8 @@
 :root {
   --background-color: #202020;
   --primary-color: #ffffff;
+  --accent-color: #f65282;
+  --footer-background: #282323;
   --default-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Montserrat", sans-serif;
 }
@@ -15,6 +17,10 @@ h1 {
   font-size: 72px;
   margin-bottom: 25px;
   margin-top: 25px;
+}
+footer {
+  padding: 40px 0;
+  background: var(--footer-background);
 }
 .navbar-branding {
   font-family: var(--default-font-family);
@@ -67,6 +73,13 @@ h1 {
 }
 .portfolio-cover {
   border-radius: 40px;
+}
+.git-link {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+.git-link:hover {
+  color: var(--primary-color);
 }
 
 @media (max-width: 900px) {
