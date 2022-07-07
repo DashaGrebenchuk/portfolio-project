@@ -74,6 +74,18 @@ footer {
 .portfolio-cover {
   border-radius: 40px;
 }
+.footer-icons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+}
+.social-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.social-link:hover {
+  color: var(--primary-color);
+}
 .git-link {
   text-decoration: none;
   color: var(--accent-color);
@@ -85,6 +97,10 @@ footer {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
+  }
+  .footer-name,
+  .footer-link {
+    font-size: 12px;
   }
   .hero h2 {
     font-size: 18px;
