@@ -50,7 +50,34 @@ footer {
   padding-top: 276px;
 }
 .main-photo {
-  margin-top: 172px;
+  margin-top: 56px;
+}
+.about-content {
+  margin-top: 56px;
+  margin-right: 140px;
+}
+.about-content h2 {
+  font-size: 16px;
+  color: var(--accent-color);
+  text-align: left;
+  padding-top: 25px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+}
+.about-content h1 {
+  font-size: 60px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+.about-content p {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+.about-content section {
+  text-align: left;
+  letter-spacing: 2em;
+  padding-bottom: 50px;
 }
 .btn-branding {
   background: var(--primary-color);
