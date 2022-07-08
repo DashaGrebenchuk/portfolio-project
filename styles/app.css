@@ -49,6 +49,9 @@ footer {
   font-size: 24px;
   padding-top: 276px;
 }
+.main-photo {
+  margin-top: 172px;
+}
 .btn-branding {
   background: var(--primary-color);
   border-radius: 50px;
