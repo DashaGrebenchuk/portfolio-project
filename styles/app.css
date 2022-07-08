@@ -34,7 +34,7 @@ footer {
   justify-content: flex-end;
 }
 .hero {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/379/original/bg_%281%29.png?1656889671);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/834/original/Dasha.jpg?1657304932);
   background-position: center;
   background-size: cover;
 }
@@ -42,7 +42,7 @@ footer {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  margin-bottom: 48px;
+  margin-bottom: 98px;
 }
 .hero p {
   font-weight: 700;
@@ -51,6 +51,8 @@ footer {
 }
 .main-photo {
   margin-top: 56px;
+  padding: 0;
+  text-align: left;
 }
 .about-content {
   margin-top: 56px;
@@ -79,6 +81,9 @@ footer {
   letter-spacing: 2em;
   padding-bottom: 50px;
 }
+.btn-contact {
+  text-align: left;
+}
 .btn-branding {
   background: var(--primary-color);
   border-radius: 50px;
@@ -86,7 +91,7 @@ footer {
   font-weight: 700px;
   font-size: 14px;
   padding: 18px 40px;
-  margin-bottom: 301px;
+  margin-bottom: 251px;
 }
 .btn-branding-launch {
   border-radius: 50px;
@@ -142,6 +147,25 @@ footer {
 
   .btn-branding {
     margin-bottom: 60px;
+  }
+  .about-content {
+    margin-right: 0;
+  }
+  .about-content h2 {
+    text-align: center;
+  }
+  .about-content h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+  .about-content p {
+    text-align: center;
+  }
+  .about-content section {
+    text-align: center;
+  }
+  .btn-contact {
+    text-align: center;
   }
 }
 @media (max-width: 535px) {
