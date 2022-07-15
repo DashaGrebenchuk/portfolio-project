@@ -30,11 +30,14 @@ h3 {
 .contact-info {
   padding: 105px 0;
 }
-.content h2 {
+.content h2,
+.content p {
   text-align: left;
   font-weight: 400;
   color: var(--accent-color);
-  margin-left: 140px;
+}
+.content p {
+  color: var(--primary-color);
 }
 .contact-content {
   font-weight: 400;
@@ -169,8 +172,8 @@ footer {
   .hero p {
     padding-top: 100px;
   }
-  .content h2 {
-    margin-left: 0;
+  .content h2,
+  .content p {
     text-align: center;
   }
   .btn-branding {
